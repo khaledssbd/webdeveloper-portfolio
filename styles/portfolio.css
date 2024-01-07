@@ -1,0 +1,46 @@
+.owners-title {
+  color: var(--Dark-01, #181818);
+  font-family: Open Sans;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.orange-color {
+  color: #fd6e0a;
+}
+.btn-primary {
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: 0px;
+  padding: 18px 35px 19px 33px;
+  flex-shrink: 0;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* common family styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Nav related styles */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+nav a {
+  text-decoration: none;
+}
