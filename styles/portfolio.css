@@ -17,14 +17,34 @@
   flex-shrink: 0;
   color: #fff;
   font-size: 20px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
+
+}
+.banner-greeting {
+  color:#474747;
+  font-size: 45px;
 }
 
+.banner-title {
+  color: #181818;
+  font-size: 85px;
+ 
+}
+.banner {
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
+}
+.banner.hardivai {
+  width: 500px;
+}
 /* common family styles */
 body {
   font-family: 'Open Sans', sans-serif;
+}
+/* header related style */
+.header {
+  background-color: #fff8f3;
 }
 
 /* Nav related styles */
@@ -32,6 +52,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0px 200px;
 }
 nav > ul {
   display: flex;
