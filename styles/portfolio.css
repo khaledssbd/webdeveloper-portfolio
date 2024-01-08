@@ -143,8 +143,76 @@ main > section > div {
   line-height: 30px; /* 166.667% */
 }
 /* Resume sectins style  */
+.resume-container {
+  display: flex;
+  text-align: left;
+  margin: 0px 200px;
+}
+.resume-column {
+  margin: 0px 25px;
+}
 .resume-column-title {
   color: #474747;
   font-size: 30px;
   font-weight: 700;
+}
+.resume-item-title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+}
+.resume-item-institute {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.resume-item-description {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+.resume-container hr {
+  margin: 30px 0px;
+}
+/* footer style */
+footer {
+  display: flex;
+  background: #fff8f3;
+  text-align: center;
+  gap: 100px;
+  margin-top: 100px;
+  padding: 1300px, 230px;
+}
+.footer-column {
+  width: 50%;
+}
+.social-links a {
+  margin-right: 20px;
+}
+.footer-section-title {
+  padding-top: 100px;
+}
+.footer-section-description {
+  width: 500px;
+  margin-left: 100px;
+  color: #474747;
+}
+.social-links {
+  padding-bottom: 130px;
+}
+.contact input,
+textarea {
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+}
+.contact > #user-data,
+textarea {
+  color: #757575;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 0;
+  width: 80%;
 }
